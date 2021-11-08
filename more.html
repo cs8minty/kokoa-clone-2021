@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,22 +24,18 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">친구</h1>
+      <h1 class="screen-header__title">더 보기</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span
         ><span><i class="fas fa-music fa-lg"></i></span
         ><span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+          ><div class="badge"></div>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
       </div>
     </header>
 
-    <a id="friends-display-link"
-      ><i class="fas fa-info-circle"></i> Friends Names Display
-      <i class="fas fa-chevron-right fa-xs"></i
-    ></a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -48,33 +44,54 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">그래도르</h4>
-            <!-- <h6 class="user-component__subtitle">상태메세지 없음..</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>채널</span><i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar avatar-sm"
-            src="https://play-lh.googleusercontent.com/Ob9Ys8yKMeyKzZvl3cB9JNSTui1lJwjSKD60IVYnlvU2DsahysGENJE-txiRIW9_72Vd"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              채널
-            </h4>
-            <!-- <h6 class="user-component__subtitle">상태메세지 없음..</h6> -->
+            <h6 class="user-component__subtitle">
+              +82 10-1234-1234
+              <span class="icon-exclamation">!</span>
+            </h6>
           </div>
         </div>
         <div class="user-component__column">
-          <div>
-            <span>999+ </span><i class="fas fa-chevron-right fa-xs"></i>
-          </div>
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-alt"></i><span>딜력</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-archive"></i><span>톡 보관함</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-laugh-beam"></i><span>이모티콘</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-palette"></i><span>테마</span>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-user-circle"></i><span>계정</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-gamepad"></i><span>게임</span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">제안</h4>
+      </div>
+
+      <div class="icon-row icon-suggestions">
+        <div class="icon-row__icon">
+          <i class="fas fa-quote-right"></i><span>코코아 스토리</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fab fa-suse"></i><span>코코아프렌즈</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fab fa-line"></i><span>코코아젬</span>
         </div>
       </div>
     </main>
@@ -83,7 +100,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">

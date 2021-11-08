@@ -1,0 +1,38 @@
+.icon-exclamation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(224, 128, 111);
+  border-radius: 50%;
+  color: rgb(224, 128, 111);
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.user-component__subtitle {
+  display: flex;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.icon-suggestions i {
+  background-color: var(--yellow);
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
