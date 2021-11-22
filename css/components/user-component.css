@@ -1,3 +1,12 @@
+@keyframes rotate-anim {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .user-component {
   justify-content: space-between;
   margin-bottom: 20px;
@@ -7,6 +16,10 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+}
+
+.user-component:hover .user-component__avatar {
+  animation: rotate-anim 1.5s linear;
 }
 
 .user-component__avatar {

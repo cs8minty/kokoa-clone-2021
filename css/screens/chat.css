@@ -1,5 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
+  background-image: var(--gridient-bg);
   height: 500vh;
 }
 
@@ -9,6 +10,7 @@
   position: fixed;
   width: 100%;
   background-color: #abc1d1;
+  background-image: var(--gridient-bg);
   box-sizing: border-box;
 }
 
